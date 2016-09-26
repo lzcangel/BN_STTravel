@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B25926B0BFB80D1B90FB4793 /* libPods-ST_Travel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0870AB83FAA0D30BD981EC9B /* libPods-ST_Travel.a */; };
+		C9C0E9511D9948F100575A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9501D9948F100575A7C /* main.m */; };
+		C9C0E9541D9948F100575A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9531D9948F100575A7C /* AppDelegate.m */; };
+		C9C0E9571D9948F100575A7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9561D9948F100575A7C /* ViewController.m */; };
+		C9C0E95A1D9948F100575A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E9581D9948F100575A7C /* Main.storyboard */; };
+		C9C0E95C1D9948F200575A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E95B1D9948F200575A7C /* Assets.xcassets */; };
+		C9C0E95F1D9948F200575A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E95D1D9948F200575A7C /* LaunchScreen.storyboard */; };
+		C9C0E96A1D9948F300575A7C /* ST_TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9691D9948F300575A7C /* ST_TravelTests.m */; };
+		C9C0E9751D9948F300575A7C /* ST_TravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9741D9948F300575A7C /* ST_TravelUITests.m */; };
+		C9C0E9AC1D99687100575A7C /* SJR_ActivityWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */; };
+		C9C0E9AD1D99687100575A7C /* SJR_HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */; };
+		C9C0E9AE1D99687100575A7C /* SJR_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */; };
+		C9C0E9AF1D99687100575A7C /* SJR_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */; };
+		C9C0E9B01D99687100575A7C /* SJR_HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */; };
+		C9C0E9B11D99687100575A7C /* SJR_TRYJSD.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C0E9661D9948F300575A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0E9441D9948F100575A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0E94B1D9948F100575A7C;
+			remoteInfo = ST_Travel;
+		};
+		C9C0E9711D9948F300575A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0E9441D9948F100575A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0E94B1D9948F100575A7C;
+			remoteInfo = ST_Travel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0870AB83FAA0D30BD981EC9B /* libPods-ST_Travel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ST_Travel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDEFBCFA054569A602B95F5 /* Pods-ST_Travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ST_Travel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ST_Travel/Pods-ST_Travel.release.xcconfig"; sourceTree = "<group>"; };
+		A7A2B62D3C5383CC61730E93 /* Pods-ST_Travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ST_Travel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ST_Travel/Pods-ST_Travel.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C0E94C1D9948F100575A7C /* ST_Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ST_Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0E9501D9948F100575A7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C0E9521D9948F100575A7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C0E9531D9948F100575A7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C0E9551D9948F100575A7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9C0E9561D9948F100575A7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9C0E9591D9948F100575A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C0E95B1D9948F200575A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C0E95E1D9948F200575A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9C0E9601D9948F200575A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0E9651D9948F300575A7C /* ST_TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ST_TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0E9691D9948F300575A7C /* ST_TravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_TravelTests.m; sourceTree = "<group>"; };
+		C9C0E96B1D9948F300575A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0E9701D9948F300575A7C /* ST_TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ST_TravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0E9741D9948F300575A7C /* ST_TravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_TravelUITests.m; sourceTree = "<group>"; };
+		C9C0E9761D9948F300575A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C0E99A1D99687100575A7C /* SJR_ActivityWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_ActivityWebView.h; sourceTree = "<group>"; };
+		C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_ActivityWebView.m; sourceTree = "<group>"; };
+		C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SJR_HomeView.storyboard; sourceTree = "<group>"; };
+		C9C0E99D1D99687100575A7C /* SJR_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_HomeViewController.h; sourceTree = "<group>"; };
+		C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_HomeViewController.m; sourceTree = "<group>"; };
+		C9C0E99F1D99687100575A7C /* SJR_TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_TabBarController.h; sourceTree = "<group>"; };
+		C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_TabBarController.m; sourceTree = "<group>"; };
+		C9C0E9A21D99687100575A7C /* SJR_HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_HomeViewModel.h; sourceTree = "<group>"; };
+		C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_HomeViewModel.m; sourceTree = "<group>"; };
+		C9C0E9A41D99687100575A7C /* SJR_TRYJSD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_TRYJSD.h; sourceTree = "<group>"; };
+		C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_TRYJSD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C0E9491D9948F100575A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25926B0BFB80D1B90FB4793 /* libPods-ST_Travel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E9621D9948F300575A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E96D1D9948F300575A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A976604EE4577D70DCD075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0870AB83FAA0D30BD981EC9B /* libPods-ST_Travel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C0E9431D9948F100575A7C = {
+			isa = PBXGroup;
+			children = (
+				C9C0E98D1D99687100575A7C /* CommonFiles_BaseCode */,
+				C9C0E9931D99687100575A7C /* CommonFiles_ST */,
+				C9C0E94E1D9948F100575A7C /* ST_Travel */,
+				C9C0E9681D9948F300575A7C /* ST_TravelTests */,
+				C9C0E9731D9948F300575A7C /* ST_TravelUITests */,
+				C9C0E94D1D9948F100575A7C /* Products */,
+				D3532ED2F67E8AB375961CED /* Pods */,
+				04A976604EE4577D70DCD075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C0E94D1D9948F100575A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E94C1D9948F100575A7C /* ST_Travel.app */,
+				C9C0E9651D9948F300575A7C /* ST_TravelTests.xctest */,
+				C9C0E9701D9948F300575A7C /* ST_TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C0E94E1D9948F100575A7C /* ST_Travel */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9521D9948F100575A7C /* AppDelegate.h */,
+				C9C0E9531D9948F100575A7C /* AppDelegate.m */,
+				C9C0E9551D9948F100575A7C /* ViewController.h */,
+				C9C0E9561D9948F100575A7C /* ViewController.m */,
+				C9C0E9581D9948F100575A7C /* Main.storyboard */,
+				C9C0E95B1D9948F200575A7C /* Assets.xcassets */,
+				C9C0E95D1D9948F200575A7C /* LaunchScreen.storyboard */,
+				C9C0E9601D9948F200575A7C /* Info.plist */,
+				C9C0E94F1D9948F100575A7C /* Supporting Files */,
+			);
+			path = ST_Travel;
+			sourceTree = "<group>";
+		};
+		C9C0E94F1D9948F100575A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9501D9948F100575A7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C0E9681D9948F300575A7C /* ST_TravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9691D9948F300575A7C /* ST_TravelTests.m */,
+				C9C0E96B1D9948F300575A7C /* Info.plist */,
+			);
+			path = ST_TravelTests;
+			sourceTree = "<group>";
+		};
+		C9C0E9731D9948F300575A7C /* ST_TravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9741D9948F300575A7C /* ST_TravelUITests.m */,
+				C9C0E9761D9948F300575A7C /* Info.plist */,
+			);
+			path = ST_TravelUITests;
+			sourceTree = "<group>";
+		};
+		C9C0E98D1D99687100575A7C /* CommonFiles_BaseCode */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E98E1D99687100575A7C /* BC_Database */,
+				C9C0E98F1D99687100575A7C /* BC_GlobalCode */,
+				C9C0E9901D99687100575A7C /* BC_Image */,
+				C9C0E9911D99687100575A7C /* BC_NetworkRequest */,
+				C9C0E9921D99687100575A7C /* BC_PublicControls */,
+			);
+			path = CommonFiles_BaseCode;
+			sourceTree = "<group>";
+		};
+		C9C0E98E1D99687100575A7C /* BC_Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BC_Database;
+			sourceTree = "<group>";
+		};
+		C9C0E98F1D99687100575A7C /* BC_GlobalCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BC_GlobalCode;
+			sourceTree = "<group>";
+		};
+		C9C0E9901D99687100575A7C /* BC_Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BC_Image;
+			sourceTree = "<group>";
+		};
+		C9C0E9911D99687100575A7C /* BC_NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BC_NetworkRequest;
+			sourceTree = "<group>";
+		};
+		C9C0E9921D99687100575A7C /* BC_PublicControls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BC_PublicControls;
+			sourceTree = "<group>";
+		};
+		C9C0E9931D99687100575A7C /* CommonFiles_ST */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9941D99687100575A7C /* Controller */,
+				C9C0E9A61D99687100575A7C /* controls */,
+				C9C0E9A71D99687100575A7C /* DBModel */,
+				C9C0E9A81D99687100575A7C /* Images */,
+				C9C0E9A91D99687100575A7C /* Public */,
+			);
+			path = CommonFiles_ST;
+			sourceTree = "<group>";
+		};
+		C9C0E9941D99687100575A7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9951D99687100575A7C /* SJR_Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C9C0E9951D99687100575A7C /* SJR_Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9961D99687100575A7C /* ChildController */,
+				C9C0E9971D99687100575A7C /* Model */,
+				C9C0E9981D99687100575A7C /* View */,
+				C9C0E9991D99687100575A7C /* ViewController */,
+				C9C0E9A11D99687100575A7C /* ViewModel */,
+			);
+			path = SJR_Home;
+			sourceTree = "<group>";
+		};
+		C9C0E9961D99687100575A7C /* ChildController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChildController;
+			sourceTree = "<group>";
+		};
+		C9C0E9971D99687100575A7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9C0E9981D99687100575A7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9C0E9991D99687100575A7C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E99A1D99687100575A7C /* SJR_ActivityWebView.h */,
+				C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */,
+				C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */,
+				C9C0E99D1D99687100575A7C /* SJR_HomeViewController.h */,
+				C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */,
+				C9C0E99F1D99687100575A7C /* SJR_TabBarController.h */,
+				C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C9C0E9A11D99687100575A7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0E9A21D99687100575A7C /* SJR_HomeViewModel.h */,
+				C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */,
+				C9C0E9A41D99687100575A7C /* SJR_TRYJSD.h */,
+				C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9C0E9A61D99687100575A7C /* controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		C9C0E9A71D99687100575A7C /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		C9C0E9A81D99687100575A7C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C9C0E9A91D99687100575A7C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D3532ED2F67E8AB375961CED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2B62D3C5383CC61730E93 /* Pods-ST_Travel.debug.xcconfig */,
+				8CDEFBCFA054569A602B95F5 /* Pods-ST_Travel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C0E94B1D9948F100575A7C /* ST_Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0E9791D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_Travel" */;
+			buildPhases = (
+				24978B89B6E512F4D70FA91F /* [CP] Check Pods Manifest.lock */,
+				C9C0E9481D9948F100575A7C /* Sources */,
+				C9C0E9491D9948F100575A7C /* Frameworks */,
+				C9C0E94A1D9948F100575A7C /* Resources */,
+				6F84DF5BACCEA5F067419499 /* [CP] Embed Pods Frameworks */,
+				C55BCC6C5AFCA4E367DED97D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ST_Travel;
+			productName = ST_Travel;
+			productReference = C9C0E94C1D9948F100575A7C /* ST_Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C0E9641D9948F300575A7C /* ST_TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0E97C1D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_TravelTests" */;
+			buildPhases = (
+				C9C0E9611D9948F300575A7C /* Sources */,
+				C9C0E9621D9948F300575A7C /* Frameworks */,
+				C9C0E9631D9948F300575A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0E9671D9948F300575A7C /* PBXTargetDependency */,
+			);
+			name = ST_TravelTests;
+			productName = ST_TravelTests;
+			productReference = C9C0E9651D9948F300575A7C /* ST_TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9C0E96F1D9948F300575A7C /* ST_TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0E97F1D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_TravelUITests" */;
+			buildPhases = (
+				C9C0E96C1D9948F300575A7C /* Sources */,
+				C9C0E96D1D9948F300575A7C /* Frameworks */,
+				C9C0E96E1D9948F300575A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0E9721D9948F300575A7C /* PBXTargetDependency */,
+			);
+			name = ST_TravelUITests;
+			productName = ST_TravelUITests;
+			productReference = C9C0E9701D9948F300575A7C /* ST_TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C0E9441D9948F100575A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GL_RunMan;
+				TargetAttributes = {
+					C9C0E94B1D9948F100575A7C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C9C0E9641D9948F300575A7C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9C0E94B1D9948F100575A7C;
+					};
+					C9C0E96F1D9948F300575A7C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9C0E94B1D9948F100575A7C;
+					};
+				};
+			};
+			buildConfigurationList = C9C0E9471D9948F100575A7C /* Build configuration list for PBXProject "ST_Travel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C0E9431D9948F100575A7C;
+			productRefGroup = C9C0E94D1D9948F100575A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C0E94B1D9948F100575A7C /* ST_Travel */,
+				C9C0E9641D9948F300575A7C /* ST_TravelTests */,
+				C9C0E96F1D9948F300575A7C /* ST_TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C0E94A1D9948F100575A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0E9AD1D99687100575A7C /* SJR_HomeView.storyboard in Resources */,
+				C9C0E95F1D9948F200575A7C /* LaunchScreen.storyboard in Resources */,
+				C9C0E95C1D9948F200575A7C /* Assets.xcassets in Resources */,
+				C9C0E95A1D9948F100575A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E9631D9948F300575A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E96E1D9948F300575A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24978B89B6E512F4D70FA91F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F84DF5BACCEA5F067419499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ST_Travel/Pods-ST_Travel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55BCC6C5AFCA4E367DED97D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ST_Travel/Pods-ST_Travel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C0E9481D9948F100575A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0E9AC1D99687100575A7C /* SJR_ActivityWebView.m in Sources */,
+				C9C0E9571D9948F100575A7C /* ViewController.m in Sources */,
+				C9C0E9B01D99687100575A7C /* SJR_HomeViewModel.m in Sources */,
+				C9C0E9541D9948F100575A7C /* AppDelegate.m in Sources */,
+				C9C0E9AF1D99687100575A7C /* SJR_TabBarController.m in Sources */,
+				C9C0E9B11D99687100575A7C /* SJR_TRYJSD.m in Sources */,
+				C9C0E9511D9948F100575A7C /* main.m in Sources */,
+				C9C0E9AE1D99687100575A7C /* SJR_HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E9611D9948F300575A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0E96A1D9948F300575A7C /* ST_TravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0E96C1D9948F300575A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0E9751D9948F300575A7C /* ST_TravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C0E9671D9948F300575A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0E94B1D9948F100575A7C /* ST_Travel */;
+			targetProxy = C9C0E9661D9948F300575A7C /* PBXContainerItemProxy */;
+		};
+		C9C0E9721D9948F300575A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0E94B1D9948F100575A7C /* ST_Travel */;
+			targetProxy = C9C0E9711D9948F300575A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C0E9581D9948F100575A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0E9591D9948F100575A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C0E95D1D9948F200575A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0E95E1D9948F200575A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C0E9771D9948F300575A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9C0E9781D9948F300575A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C0E97A1D9948F300575A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A2B62D3C5383CC61730E93 /* Pods-ST_Travel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ST_Travel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9C0E97B1D9948F300575A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDEFBCFA054569A602B95F5 /* Pods-ST_Travel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ST_Travel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9C0E97D1D9948F300575A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ST_TravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ST_Travel.app/ST_Travel";
+			};
+			name = Debug;
+		};
+		C9C0E97E1D9948F300575A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ST_TravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ST_Travel.app/ST_Travel";
+			};
+			name = Release;
+		};
+		C9C0E9801D9948F300575A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ST_TravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ST_Travel;
+			};
+			name = Debug;
+		};
+		C9C0E9811D9948F300575A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ST_TravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yuan..ST-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ST_Travel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C0E9471D9948F100575A7C /* Build configuration list for PBXProject "ST_Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0E9771D9948F300575A7C /* Debug */,
+				C9C0E9781D9948F300575A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0E9791D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0E97A1D9948F300575A7C /* Debug */,
+				C9C0E97B1D9948F300575A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0E97C1D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0E97D1D9948F300575A7C /* Debug */,
+				C9C0E97E1D9948F300575A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0E97F1D9948F300575A7C /* Build configuration list for PBXNativeTarget "ST_TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0E9801D9948F300575A7C /* Debug */,
+				C9C0E9811D9948F300575A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C0E9441D9948F100575A7C /* Project object */;
+}
