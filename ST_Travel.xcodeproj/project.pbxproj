@@ -16,12 +16,6 @@
 		C9C0E95F1D9948F200575A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E95D1D9948F200575A7C /* LaunchScreen.storyboard */; };
 		C9C0E96A1D9948F300575A7C /* ST_TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9691D9948F300575A7C /* ST_TravelTests.m */; };
 		C9C0E9751D9948F300575A7C /* ST_TravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9741D9948F300575A7C /* ST_TravelUITests.m */; };
-		C9C0E9AC1D99687100575A7C /* SJR_ActivityWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */; };
-		C9C0E9AD1D99687100575A7C /* SJR_HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */; };
-		C9C0E9AE1D99687100575A7C /* SJR_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */; };
-		C9C0E9AF1D99687100575A7C /* SJR_TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */; };
-		C9C0E9B01D99687100575A7C /* SJR_HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */; };
-		C9C0E9B11D99687100575A7C /* SJR_TRYJSD.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,17 +55,6 @@
 		C9C0E9701D9948F300575A7C /* ST_TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ST_TravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C0E9741D9948F300575A7C /* ST_TravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ST_TravelUITests.m; sourceTree = "<group>"; };
 		C9C0E9761D9948F300575A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9C0E99A1D99687100575A7C /* SJR_ActivityWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_ActivityWebView.h; sourceTree = "<group>"; };
-		C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_ActivityWebView.m; sourceTree = "<group>"; };
-		C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SJR_HomeView.storyboard; sourceTree = "<group>"; };
-		C9C0E99D1D99687100575A7C /* SJR_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_HomeViewController.h; sourceTree = "<group>"; };
-		C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_HomeViewController.m; sourceTree = "<group>"; };
-		C9C0E99F1D99687100575A7C /* SJR_TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_TabBarController.h; sourceTree = "<group>"; };
-		C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_TabBarController.m; sourceTree = "<group>"; };
-		C9C0E9A21D99687100575A7C /* SJR_HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_HomeViewModel.h; sourceTree = "<group>"; };
-		C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_HomeViewModel.m; sourceTree = "<group>"; };
-		C9C0E9A41D99687100575A7C /* SJR_TRYJSD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJR_TRYJSD.h; sourceTree = "<group>"; };
-		C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJR_TRYJSD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,13 +260,6 @@
 		C9C0E9991D99687100575A7C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C9C0E99A1D99687100575A7C /* SJR_ActivityWebView.h */,
-				C9C0E99B1D99687100575A7C /* SJR_ActivityWebView.m */,
-				C9C0E99C1D99687100575A7C /* SJR_HomeView.storyboard */,
-				C9C0E99D1D99687100575A7C /* SJR_HomeViewController.h */,
-				C9C0E99E1D99687100575A7C /* SJR_HomeViewController.m */,
-				C9C0E99F1D99687100575A7C /* SJR_TabBarController.h */,
-				C9C0E9A01D99687100575A7C /* SJR_TabBarController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -291,10 +267,6 @@
 		C9C0E9A11D99687100575A7C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				C9C0E9A21D99687100575A7C /* SJR_HomeViewModel.h */,
-				C9C0E9A31D99687100575A7C /* SJR_HomeViewModel.m */,
-				C9C0E9A41D99687100575A7C /* SJR_TRYJSD.h */,
-				C9C0E9A51D99687100575A7C /* SJR_TRYJSD.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -445,7 +417,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C0E9AD1D99687100575A7C /* SJR_HomeView.storyboard in Resources */,
 				C9C0E95F1D9948F200575A7C /* LaunchScreen.storyboard in Resources */,
 				C9C0E95C1D9948F200575A7C /* Assets.xcassets in Resources */,
 				C9C0E95A1D9948F100575A7C /* Main.storyboard in Resources */,
@@ -521,14 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C0E9AC1D99687100575A7C /* SJR_ActivityWebView.m in Sources */,
 				C9C0E9571D9948F100575A7C /* ViewController.m in Sources */,
-				C9C0E9B01D99687100575A7C /* SJR_HomeViewModel.m in Sources */,
 				C9C0E9541D9948F100575A7C /* AppDelegate.m in Sources */,
-				C9C0E9AF1D99687100575A7C /* SJR_TabBarController.m in Sources */,
-				C9C0E9B11D99687100575A7C /* SJR_TRYJSD.m in Sources */,
 				C9C0E9511D9948F100575A7C /* main.m in Sources */,
-				C9C0E9AE1D99687100575A7C /* SJR_HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,6 @@ pod "Masonry"
 pod "MBProgressHUD"
 pod "ReactiveCocoa"
 pod "SWTableViewCell"
-pod "SWTableViewCell"
-pod "HMSegmentedControl"
 pod "HMSegmentedControl"
 pod "CTAssetsPickerController"
 end
